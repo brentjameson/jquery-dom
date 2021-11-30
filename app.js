@@ -19,7 +19,7 @@ $('ol').remove()
 $('h4').after("<p>I am sorry for that silly list's existence.</p>")
 // 7 When you change the numbers in the three inputs on the bottom, the background color of the body should change to match whatever the three values in the inputs are.
 
-$('form-control').on('keyup blur change', function() {
+$('.form-control').on('keyup blur change', function() {
     let r = $('.form-control').eq(0).val();
     let g = $('.form-control').eq(1).val();
     let b = $('.form-control').eq(2).val();
